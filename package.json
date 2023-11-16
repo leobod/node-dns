@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/leobod/node-dns/issues"
   },
-  "homepage": "https://github.com/leobod/node-dns#readme"
+  "homepage": "https://github.com/leobod/node-dns#readme",
+  "dependencies": {
+    "lz-string": "^1.5.0"
+  }
 }
