@@ -1,6 +1,4 @@
-const s1 = `
- int a = 123
-`
+const s1 = '2+3*4'
 
 const s0 = s1.replace(/[\r\n]*/g, '')
 
@@ -29,6 +27,16 @@ const isSpace = (ch) => {
 
 const isEqual = (ch) => {
     const reg = /^=$/
+    return reg.test(ch)
+}
+
+const isAdd = (ch) => {
+    const reg = /^+$/
+    return reg.test(ch)
+}
+
+const isMul = (ch) => {
+    const reg = /^+$/
     return reg.test(ch)
 }
 
